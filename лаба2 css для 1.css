@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-    color: #225a25;
+    color: #12e2a3;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     font-style: italic
@@ -88,12 +88,12 @@ p:first-line {
 Pre:first-letter {
     font-family:'Niagara Engraved'; /* Гарнитура шрифта первой буквы */
     font-size: 200%; /* Размер шрифта первого символа */
-    color: red; /* Красный цвет текста */
+    color: yellow; /* Красный цвет текста */
 }
 P:first-letter {
     font-family: 'Niagara Engraved'; /* Гарнитура шрифта первой буквы */
     font-size: 200%; /* Размер шрифта первого символа */
-    color: red;
+    color: darkblue;
 }
 .tao:before {
     content: " студентка I курса "; /* Добавляем желаемый символ перед элементом списка */
