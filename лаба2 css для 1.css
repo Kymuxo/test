@@ -1,0 +1,105 @@
+h1 {
+    font-family: COMIC SANS MS;
+    color: #808080;
+    text-align: center; 
+}
+
+h2 {
+    color: #225a25;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-style: italic
+}
+
+h3 {
+    color:  #2e1d74; 
+    text-align: center; 
+}
+span {
+    font-family: VERDANA;
+}
+.nfont-1 {
+    text-align: center; /*выравнивание	сenter - по центру,	justify - по ширине, left - по левому краю,	right - по правому краю, 
+                    auto – не изменяет положение элемента, inherit – наследует значение родителя.*/
+    color: #ff6a00; /*цвет текста*/
+    word-spacing: 5px; /*отступ между словами*/
+    letter-spacing: 1px; /*отступ между буквами*/
+    text-decoration: double; /*вид шрифта blink - мигающий текст, line-through - перечеркнутый текст, overline - линия над текстом,
+                      underline - подчеркнутый текст, none - отменяет все эффекты в том числе подчеркивание у ссылок*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*семейство шрифта(стиль)*/
+    font-size: 20px; /*размер шрифта*/
+    font-style: normal; /*начертание шрифта normal - нормальное, italic - курсивное, oblique - наклонное*/
+    font-weight:100; /*жирность bold - полужирный(700), normal - обычный(400) или от 100 до 900*/
+}
+.nfont-2 {
+    text-align: justify;
+    color: maroon;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    text-decoration: overline;
+    font-family: Haettenschweiler;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 200;
+}
+.nfont-3 {
+    text-align: left;
+    color: mediumvioletred;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-family: Magneto;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+#ab1 {
+    color: black;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-decoration: overline;
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+}
+#ab2 {
+    color: black;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    font-family: Leelawadee;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+p:first-child{
+    font-family:Leelawadee;
+    color:yellow;
+    font-size: 100px;
+}
+p:first-line {
+    text-decoration: underline;
+    color:indigo;
+}
+
+Pre:first-letter {
+    font-family:'Niagara Engraved'; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+}
+P:first-letter {
+    font-family: 'Niagara Engraved'; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red;
+}
+.tao:before {
+    content: " студентка I курса "; /* Добавляем желаемый символ перед элементом списка */
+}
+
+.tao::after {
+    content: " проживающая по адресу гп.Мачулищи, ул.Молодежная";
+}
+    /*лаба2 css для 1.css*/
